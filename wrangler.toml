@@ -1,0 +1,18 @@
+# wrangler.toml
+
+# 1. Worker name (must be unique per Cloudflare account, lower-case, no spaces)
+name = "rsshub-proxy"
+
+# 2. Entry file (must match the path to your JS file)
+main = "src/index.js"
+
+# 3. Compatibility date (use a recent date; any valid ISO date string is fine)
+compatibility_date = "2026-02-03"
+
+# 4. Optional: bind a subdomain of your own domain to this Worker
+#    - Replace rsshub.example.com with your real subdomain
+#    - Replace YOUR_ZONE_ID with your zone ID from the Cloudflare dashboard
+#
+# [routes](# "Reference routes \|\|\| __GENERATING_DETAILS__")
+# pattern = "rsshub.example.com/*"
+# zone_id = "YOUR_ZONE_ID"
