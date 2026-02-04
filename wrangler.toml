@@ -13,6 +13,6 @@ compatibility_date = "2026-02-03"
 #    - Replace rsshub.example.com with your real subdomain
 #    - Replace YOUR_ZONE_ID with your zone ID from the Cloudflare dashboard
 #
-[routes](# "Reference routes \|\|\| __GENERATING_DETAILS__")
+[routes]
 pattern = "rss.712729.xyz/*"
-zone_id = "rss.712729.xyz"
+zone_name = "rss.712729.xyz"
