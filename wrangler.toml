@@ -1,7 +1,7 @@
 # wrangler.toml
 
 # 1. Worker name (must be unique per Cloudflare account, lower-case, no spaces)
-name = "rsshub-proxy"
+name = "rss"
 
 # 2. Entry file (must match the path to your JS file)
 main = "src/index.js"
