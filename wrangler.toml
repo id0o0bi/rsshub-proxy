@@ -14,5 +14,5 @@ compatibility_date = "2026-02-03"
 #    - Replace YOUR_ZONE_ID with your zone ID from the Cloudflare dashboard
 #
 # [routes](# "Reference routes \|\|\| __GENERATING_DETAILS__")
-# pattern = "rsshub.example.com/*"
-# zone_id = "YOUR_ZONE_ID"
+pattern = "rss.712729.xyz/*"
+zone_id = "712729.xyz"
