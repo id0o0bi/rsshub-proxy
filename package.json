@@ -1,0 +1,12 @@
+{
+  "name": "rss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
